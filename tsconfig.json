@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "types": [
+      "jest",
+      "node"
+    ],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "strict": true,
+    "baseUrl": "src",
+    "paths": {
+      "@redux/*": [
+        "redux/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
